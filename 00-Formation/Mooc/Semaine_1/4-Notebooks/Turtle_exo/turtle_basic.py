@@ -24,8 +24,8 @@
 
 # on a besoin du module turtle
 import turtle
-
-
+color('blue')
+begin_fill()
 # On commence par définir une fonction qui dessine un carré de coté `length`
 
 # In[ ]:
@@ -50,7 +50,7 @@ turtle.reset()
 # In[ ]:
 
 
-square(200)
+square(100)
 
 
 # Et pour finir on attend que l'utilisateur clique dans la fenêtre de la tortue, et alors on termine
