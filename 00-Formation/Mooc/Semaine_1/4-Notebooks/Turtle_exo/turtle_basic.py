@@ -24,8 +24,7 @@
 
 # on a besoin du module turtle
 import turtle
-color('blue')
-begin_fill()
+
 # On commence par définir une fonction qui dessine un carré de coté `length`
 
 # In[ ]:
@@ -33,6 +32,7 @@ begin_fill()
 def square(length):
     "have the turtle draw a square of side <length>"
     for side in range(4):
+        turtle.color('blue', 'green')
         turtle.forward(length)
         turtle.left(90)
 
